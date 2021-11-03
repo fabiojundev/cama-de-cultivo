@@ -10,8 +10,8 @@ export async function getStaticProps(context) {
   const locale = getLocaleFromContext(context);
 
   const data = await getData({
-    asPath: '/frontpage-2021',
-    language: locale.crystallizeCatalogueLanguage,
+    asPath: '/',
+    language: 'pt',
     preview
   });
 
